@@ -12,7 +12,7 @@
 	<bean id="myServiceClient"
 		class="org.springframework.remoting.caucho.HessianProxyFactoryBean">
 		<property name="serviceUrl">
-			<value>http://localhost:7001/SpringHessianServer/remoting/hessianCommentService</value>
+			<value>/remoting/hessianCommentService</value>
 		</property>
 		<property name="serviceInterface">
 			<value>com.spring.hessian.service.IService</value>
