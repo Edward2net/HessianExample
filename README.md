@@ -7,6 +7,8 @@
 1. 框架
 
 * 核心框架：Hessian 4.0.51
+* 核心框架：Spring Framework 4.3.8 RELEASE
+* Log套件：slf4j 1.6.6、Log4j 1.2.15
 
 2. 運作環境
 * Ap Server: Weblogic 10.3.6
