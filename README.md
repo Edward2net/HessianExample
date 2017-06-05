@@ -19,3 +19,4 @@
 1. 傳值
 2. 傳類別
 3. 傳集合
+4. Spring 框架內使用 xml 定義 Bean 取得 Hessian 資料流
