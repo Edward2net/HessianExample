@@ -2,6 +2,7 @@
     <wb-module deploy-name="SpringHessianServer">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resource"/>
         <property name="context-root" value="SpringHessianServer"/>
         <property name="java-output-path" value="/SpringHessianServer/build/classes"/>
     </wb-module>

@@ -1,5 +1,6 @@
 package com.spring.hessian.controller;
 
+import java.io.File;
 import java.util.List;
 import java.util.Locale;
 
@@ -31,6 +32,10 @@ public class IndexController {
 	public String index(Locale locale, Model model) {
 		
 		logger.info("function -> index");
+		
+		String fileName = "/remoting-client.xml";
+		
+		File file = new File(fileName);
 		
 		StringBuilder sbResult = new StringBuilder();
 		
